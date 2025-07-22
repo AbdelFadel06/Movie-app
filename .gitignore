@@ -1,0 +1,51 @@
+# Environnement virtuel
+venv/
+env/
+ENV/
+.venv/
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers temporaires
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+
+# Configuration de l'IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Fichiers de migration inutiles (optionnel)
+# migrations/ (à éviter si tu veux tracker les migrations)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# Fichiers spécifiques à Django
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Secrets & configs
+.env
+.env.*
+
+# Node (si tu utilises Tailwind, etc.)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
